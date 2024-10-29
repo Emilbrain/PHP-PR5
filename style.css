@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+    background: white;
+    padding: 15px;
+    background: #f4c3f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, select, button {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 250px;
+    height: 350px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex ;
+    flex-direction: column;
+    justify-content: flex-end;    
+}
+
+.product h3 {
+    margin: 0 0 10px;
+}
+
+.container-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo{
+    width: 200px;
+    height: 300px;
+    background: #5a5a5a;
+}
